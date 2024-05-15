@@ -24,6 +24,10 @@ main {
 .pile {
   display: grid;
 
+  > * {
+    grid-area: 1/1;
+  }
+
   &:hover {
     > * {
       transform-origin: bottom left;
@@ -49,10 +53,6 @@ main {
         transform: rotate(20deg);
       }
     }
-  }
-
-  > * {
-    grid-area: 1/1;
   }
 }
 
