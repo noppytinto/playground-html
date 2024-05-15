@@ -26,13 +26,12 @@ main {
 
   > * {
     grid-area: 1/1;
+    transform-origin: bottom left;
+    transition: transform 0.2s;
   }
 
   &:hover {
     > * {
-      transform-origin: bottom left;
-      transition: transform 0.2s;
-
       &:nth-child(1) {
         transform: rotate(-20deg);
       }
