@@ -32,11 +32,11 @@ main {
 
   &:hover {
     > * {
-      &:nth-child(1) {
+      &:nth-child(5) {
         transform: rotate(-20deg);
       }
 
-      &:nth-child(2) {
+      &:nth-child(4) {
         transform: rotate(-10deg);
       }
 
@@ -44,11 +44,11 @@ main {
         transform: rotate(0deg);
       }
 
-      &:nth-child(4) {
+      &:nth-child(2) {
         transform: rotate(10deg);
       }
 
-      &:nth-child(5) {
+      &:nth-child(1) {
         transform: rotate(20deg);
       }
     }
@@ -65,4 +65,5 @@ main {
   border: 1px solid #ccc;
   padding: 1em;
   border-radius: 1em;
+  text-align: right;
 }
